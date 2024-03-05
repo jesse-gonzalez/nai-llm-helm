@@ -5,11 +5,11 @@ metadata:
   namespace: {{ .Release.Namespace }}
 spec:
   predictor:
-    # tolerations:
-    #   - key: "dedicated"
-    #     operator: "Equal"
-    #     value: "gpu"
-    #     effect: "NoSchedule"
+    tolerations:
+      - key: "dedicated"
+        operator: "Equal"
+        value: "gpu"
+        effect: "NoSchedule"
     model:
       env:
       - name: TS_SERVICE_ENVELOPE

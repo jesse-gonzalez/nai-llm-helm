@@ -1,4 +1,0 @@
-##
-make build
-make run
-

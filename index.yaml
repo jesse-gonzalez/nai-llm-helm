@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  gptnvd-reference-app:
+  - apiVersion: v2
+    appVersion: 0.2.8
+    created: "2024-03-05T01:59:50.817579624Z"
+    description: A Helm chart for GPT NVD Reference App
+    digest: 5bfdee4b557eae1015e2bfbf7be5b972b5297154cf96a1902eb3a6f35a029e0e
+    name: gptnvd-reference-app
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/gptnvd-reference-app-0.2.8/gptnvd-reference-app-0.2.8.tgz
+    version: 0.2.8
   gptnvd-referenceapp:
   - apiVersion: v2
     appVersion: 0.2.7
@@ -11,6 +22,17 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/gptnvd-referenceapp-0.2.7/gptnvd-referenceapp-0.2.7.tgz
     version: 0.2.7
+  nai-helm:
+  - apiVersion: v2
+    appVersion: 0.2.8
+    created: "2024-03-05T01:59:50.956734085Z"
+    description: A Helm chart for Deploying NAI LLM workload
+    digest: 157fcd8262b0c8be9d7692c087aa226e206b186106d0d5498f2c3cc7205cd540
+    name: nai-helm
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-helm-0.2.8/nai-helm-0.2.8.tgz
+    version: 0.2.8
   nai-llm:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -22,4 +44,4 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-llm-0.1.0/nai-llm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-04T20:30:59.086697-05:00"
+generated: "2024-03-05T01:59:50.956764271Z"

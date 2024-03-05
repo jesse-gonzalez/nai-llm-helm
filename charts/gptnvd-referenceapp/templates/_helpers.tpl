@@ -1,7 +1,7 @@
 {{/*
 Expand the name of the chart.
 */}}
-{{- define "nai-helm.name" -}}
+{{- define "gpt-sample-app.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
@@ -10,7 +10,7 @@ Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
 */}}
-{{- define "nai-helm.fullname" -}}
+{{- define "gpt-sample-app.fullname" -}}
 {{- if .Values.fullnameOverride }}
 {{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" }}
 {{- else }}
@@ -26,16 +26,16 @@ If release name contains chart name it will be used as a full name.
 {{/*
 Create chart name and version as used by the chart label.
 */}}
-{{- define "nai-helm.chart" -}}
+{{- define "gpt-sample-app.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
 {{/*
 Common labels
 */}}
-{{- define "nai-helm.labels" -}}
-helm.sh/chart: {{ include "nai-helm.chart" . }}
-{{ include "nai-helm.selectorLabels" . }}
+{{- define "gpt-sample-app.labels" -}}
+helm.sh/chart: {{ include "gpt-sample-app.chart" . }}
+{{ include "gpt-sample-app.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
@@ -45,18 +45,7 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{/*
 Selector labels
 */}}
-{{- define "nai-helm.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "nai-helm.name" . }}
+{{- define "gpt-sample-app.selectorLabels" -}}
+app.kubernetes.io/name: {{ include "gpt-sample-app.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
-{{- end }}
-
-{{/*
-Create the name of the service account to use
-*/}}
-{{- define "nai-helm.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "nai-helm.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
 {{- end }}

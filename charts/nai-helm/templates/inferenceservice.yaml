@@ -10,6 +10,10 @@ spec:
     #     operator: "Equal"
     #     value: "gpu"
     #     effect: "NoSchedule"
+    {{- with .Values.imagePullSecrets }}
+    imagePullSecrets:
+      {{- toYaml . | nindent 8 }}
+    {{- end }}
     model:
       env:
       - name: TS_SERVICE_ENVELOPE

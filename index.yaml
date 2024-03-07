@@ -35,6 +35,16 @@ entries:
     version: 0.2.8
   nai-llm:
   - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2024-03-07T19:39:29.347024033Z"
+    description: A Helm chart for Deploying NAI LLM workload
+    digest: 51af9ec89ee0ec2ae50a9cb6e244a1546d092cc0e89fe08cd5282446ea7b8cfe
+    name: nai-llm
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-llm-0.1.1/nai-llm-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.0
     created: "2024-03-04T20:30:59.086691-05:00"
     description: A Helm chart for Deploying NAI LLM workload
@@ -44,4 +54,4 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-llm-0.1.0/nai-llm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-05T01:59:50.956764271Z"
+generated: "2024-03-07T19:39:29.347031807Z"

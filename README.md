@@ -3,9 +3,7 @@
 This GitHub repository is the official source for Nutanix AI GPT NVD's LLM Helm charts.
 
 [![Release Charts](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/release.yaml)
-
 [![Linting Charts](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/linting.yaml/badge.svg?branch=main)](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/linting.yaml)
-
 [![pages-build-deployment](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/jesse-gonzalez/nai-llm-helm/actions/workflows/pages/pages-build-deployment)
 
 ## Make changes to an existing chart without publishing

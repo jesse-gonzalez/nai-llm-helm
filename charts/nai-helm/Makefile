@@ -1,6 +1,6 @@
 # Customize these variables
 IMAGE_NAME ?= nai-utils
-TAG ?= 0.2
+TAG ?= 0.3
 #DOCKER_REGISTRY ?= quay.io/wolfgangntnx
 DOCKER_REGISTRY ?= quay.io/jesseagonzalez
 CONTAINER_ENGINE ?= docker # or podman

@@ -19,5 +19,7 @@ COPY --from=builder /nai-utils /nai-utils
 COPY download-wrapper.sh /nai-utils/download-wrapper.sh
 WORKDIR /nai-utils
 
+ENV HF_TOKEN=""
 ENTRYPOINT ["/nai-utils/download-wrapper.sh"]
+
 

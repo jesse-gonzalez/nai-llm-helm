@@ -9,3 +9,4 @@ nfs:
   server: 10.54.78.48
   export: /llm
 imagePullSecrets: []
+huggingFaceToken: <>

@@ -34,7 +34,6 @@ else
 fi
 
 echo "INFO: Running python3 llm/generate.py $ARGS"
-
 python3 llm/generate.py $ARGS
 
 ln -s /mnt/models/$MODEL_NAME/$MODEL_REVISION/config /mnt/models/config

@@ -13,7 +13,6 @@ data:
   appName: pipeline
   appVersion: 2.0.3
   autoUpdatePipelineDefaultVersion: "true"
-  bucketName: "{{ .Values.bucket.name }}"
   cacheDb: cachedb
   cacheImage: gcr.io/google-containers/busybox
   cacheNodeRestrictions: "false"
@@ -22,10 +21,11 @@ data:
   dbPort: "3306"
   dbType: mysql
   defaultPipelineRoot: ""
-  insecure: "{{ .Values.objectstore.insecure }}"
   mlmdDb: metadb
   mysqlHost: mysql
   mysqlPort: "3306"
+  bucketName: "{{ .Values.bucket.name }}"
+  insecure: "{{ .Values.objectstore.insecure }}"
   objStoreHost: "{{ .Values.objectstore.host }}"
   objStoreRegion: "{{ .Values.objectstore.region }}"
   pipelineDb: mlpipeline

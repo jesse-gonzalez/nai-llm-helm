@@ -27,7 +27,6 @@ spec:
     metadata:
       annotations:
         cluster-autoscaler.kubernetes.io/safe-to-evict: "true"
-      creationTimestamp: null
       labels:
         app: ml-pipeline-ui
         app.kubernetes.io/component: ml-pipeline

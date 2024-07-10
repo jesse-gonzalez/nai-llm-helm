@@ -52,4 +52,15 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-llm-0.1.0/nai-llm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-16T23:24:14.544112216Z"
+  nutanix-kubeflow-customization:
+  - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2024-07-10T18:46:06.800237428Z"
+    description: A Helm chart for Kubernetes
+    digest: 11604005e5df26f58d460b222dd48f1359ea78b2ebeb5affb3891d4274eca73d
+    name: nutanix-kubeflow-customization
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nutanix-kubeflow-customization-0.1.0/nutanix-kubeflow-customization-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-10T18:46:06.80025993Z"

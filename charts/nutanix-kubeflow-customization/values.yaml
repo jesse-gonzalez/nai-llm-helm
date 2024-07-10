@@ -1,10 +1,10 @@
 bucket:
-  accesskey: access
-  secretkey: secret
+  accesskey: _REQUIRED
+  secretkey: _REQUIRED
   name: mlpipeline
 objectstore:
-  host: objects.romanticism.cloudnative.nvdlab.net
+  host: _REQUIRED
   insecure: true
   region: us-east-1
 ingress:
-  ip: 10.122.7.109
+  ip: _REQUIRED

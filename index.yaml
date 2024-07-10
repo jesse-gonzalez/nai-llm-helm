@@ -55,6 +55,16 @@ entries:
   nutanix-kubeflow-customization:
   - apiVersion: v2
     appVersion: 1.8.1
+    created: "2024-07-10T21:02:04.844576742Z"
+    description: A Helm chart for Kubernetes
+    digest: bcefa5489276875294c5e281957639594d767a05dc7706bb4838ee8b8a1a2590
+    name: nutanix-kubeflow-customization
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nutanix-kubeflow-customization-0.1.1/nutanix-kubeflow-customization-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.8.1
     created: "2024-07-10T18:46:06.800237428Z"
     description: A Helm chart for Kubernetes
     digest: 11604005e5df26f58d460b222dd48f1359ea78b2ebeb5affb3891d4274eca73d
@@ -63,4 +73,4 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nutanix-kubeflow-customization-0.1.0/nutanix-kubeflow-customization-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-10T18:46:06.80025993Z"
+generated: "2024-07-10T21:02:04.844599395Z"

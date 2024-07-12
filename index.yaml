@@ -1,16 +1,5 @@
 apiVersion: v1
 entries:
-  gptnvd-referenceapp:
-  - apiVersion: v2
-    appVersion: 0.2.7
-    created: "2024-03-04T20:30:58.832863-05:00"
-    description: A Helm chart for GPT NVD Reference App
-    digest: d783105417e1dfb331808be4e6e16d3d4b82f9cfbbcff27255e80fdaa86feb3e
-    name: gptnvd-referenceapp
-    type: application
-    urls:
-    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/gptnvd-referenceapp-0.2.7/gptnvd-referenceapp-0.2.7.tgz
-    version: 0.2.7
   nai-llm:
   - apiVersion: v2
     appVersion: 0.1.3

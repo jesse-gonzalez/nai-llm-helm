@@ -11,6 +11,16 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/gptnvd-referenceapp-0.2.8/gptnvd-referenceapp-0.2.8.tgz
     version: 0.2.8
+  - apiVersion: v2
+    appVersion: 0.2.7
+    created: "2024-07-12T12:54:59.289770771Z"
+    description: A Helm chart for GPT NVD Reference App
+    digest: 02642cef76afffaeb47b75b47529ec756df75a76d597ff6128347b40970498df
+    name: gptnvd-referenceapp
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/gptnvd-referenceapp-0.2.7/gptnvd-referenceapp-0.2.7.tgz
+    version: 0.2.7
   nai-llm:
   - apiVersion: v2
     appVersion: 0.1.3
@@ -73,4 +83,4 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nutanix-kubeflow-customization-0.1.0/nutanix-kubeflow-customization-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-12T12:54:05.27853789Z"
+generated: "2024-07-12T12:54:59.28978621Z"

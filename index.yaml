@@ -24,6 +24,16 @@ entries:
   nai-llm:
   - apiVersion: v2
     appVersion: 0.1.3
+    created: "2024-07-18T13:53:51.350218558Z"
+    description: A Helm chart for Deploying NAI LLM workload
+    digest: 8a3bf50cc323b619e26fcc184fc9d623654042a7be700ba097f6674608174462
+    name: nai-llm
+    type: application
+    urls:
+    - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nai-llm-0.1.4/nai-llm-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.1.3
     created: "2024-04-16T23:24:14.544090205Z"
     description: A Helm chart for Deploying NAI LLM workload
     digest: aabae88b8d0c79c22dae1d1865117d50b10feadd395104ffc546d5baa0db374d
@@ -83,4 +93,4 @@ entries:
     urls:
     - https://github.com/jesse-gonzalez/nai-llm-helm/releases/download/nutanix-kubeflow-customization-0.1.0/nutanix-kubeflow-customization-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-12T12:54:59.28978621Z"
+generated: "2024-07-18T13:53:51.350310359Z"
